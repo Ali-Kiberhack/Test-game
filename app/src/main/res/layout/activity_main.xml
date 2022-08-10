@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/fon"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_ball"
+        android:text="Your score"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/tv_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="15+5="
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+       />
+    <EditText
+        android:id="@+id/edt_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Javob yozing"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:inputType="number"
+        />
+
+  <RadioGroup
+      android:id="@+id/Radiogroup"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      >
+
+      <RadioButton
+          android:id="@+id/rad_btn1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Variant1"
+          android:textSize="30sp"/>
+      <RadioButton
+          android:id="@+id/rad_btn2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Variant2"
+          android:textSize="30sp"/>
+      <RadioButton
+          android:id="@+id/rad_btn3"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Variant3"
+          android:textSize="30sp"/>
+      <RadioButton
+          android:id="@+id/rad_btn4"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Variant4"
+          android:textSize="30sp"/>
+
+  </RadioGroup>
+
+</LinearLayout>
